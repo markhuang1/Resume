@@ -1,0 +1,41 @@
+{
+	"audios": [
+		{
+			"name":"Hear Me Now",
+			"artists":"Alok",
+			"picUrl": "http://p1.music.126.net/ArX_KZ5Ftl_e9bUP30VkPA==/18030891184085451.jpg",
+			"audio": "http://music.163.com/song/media/outer/url?id=427542186"
+		}, {
+			"name":"Samsara",
+			"artists":"Tungevaag & Raaban",
+			"picUrl": "http://p1.music.126.net/-3DMB09hCrqXOIFhnxyGoQ==/1421668547870846.jpg",
+			"audio": "http://music.163.com/song/media/outer/url?id=518190926"
+		}, {
+			"name":"Levitate",
+			"artists":"FEWZ",
+			"picUrl": "http://p1.music.126.net/s9xTI-rby_1tlRJSiVsi0w==/1365593503580322.jpg",
+			"audio": "http://music.163.com/song/media/outer/url?id=406737893"
+		},{
+			"name":"妻书",
+			"artists":"玄觞",
+			"picUrl": "http://p1.music.126.net/ksPezKOtbt10cxuWCgLE5w==/109951162831800139.jpg",
+			"audio": "http://music.163.com/song/media/outer/url?id=27501309"
+		},{
+			"name":"苏幕遮",
+			"artists":"张晓棠",
+			"picUrl": "http://p1.music.126.net/WnuS2v6i9qKWCHKTxpw4uA==/19025949207225417.jpg",
+			"audio": "http://music.163.com/song/media/outer/url?id=25640582"
+		},{
+			"name":"Merry Xmas/Marry me",
+			"artists":"switch godLe$",
+			"picUrl": "http://p1.music.126.net/VY3LsXGamBkwpLeSOL_E6g==/109951163092961397.jpg",
+			"audio": "http://music.163.com/song/media/outer/url?id=526161446"
+		}
+		,{
+			"name":"蓝莲花",
+			"artists":"许巍",
+			"picUrl": "http://p1.music.126.net/z0tPO90hyAXoIh3AiFAs6w==/18668607928551407.jpg",
+			"audio": "http://music.163.com/song/media/outer/url?id=439628813"
+		}
+	]
+}

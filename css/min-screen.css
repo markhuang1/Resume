@@ -1,0 +1,234 @@
+.min-screen{
+	width: 100%;
+	height: 100%;
+	padding: 0;
+	margin: 0;
+}
+.person{
+	width: 100%;
+	height: 700px;
+	background-image: url(../img/luoye.jpg);
+	background-size: cover;
+	position: relative;
+	top: 0px;
+}
+.photos{
+	height:200px;
+	width: 200px;
+	border-radius: 50%;
+	background-image: url(../img/pic.jpg);
+	background-size: cover;
+	margin: auto;
+	position: relative;
+	top: 100px;
+	opacity: 1;
+	transition: all 1s;
+}
+.photos:hover{
+	box-shadow: black 0 0 20px;
+}
+.introduce{
+	position: relative;
+	font-size: 0.6rem;
+	top: 110px;
+	color: white;
+}
+.introduce center{
+	margin-top: 10px;
+}
+@keyframes move{
+	from{opacity: 0;transform: translateY(30px);}
+	to{opacity: 1;transform: translateY(0px);}
+}
+.link-nav{
+	width: 100%;
+	height: 50px;
+	margin-top: 20px;
+	border-radius: 10px;
+}
+.link-nav ul{
+	width: 100%;
+	height: 100%;
+}
+.link-nav li{
+	height: 100%;
+	width: 20%;
+	margin: 0;
+	float: left;
+	text-align: center;
+	list-style: none;
+	font-size: 1rem;
+	position: relative;
+}
+.link-nav i:hover{
+	color: green;
+	cursor: pointer;
+}
+.power{
+	font-size: 0.6rem;
+	border-bottom: 2px solid green;
+}
+.power .powers:last-child{
+	margin-bottom: 50px;
+}
+.title{
+	margin-top: 10px;
+	margin: 10px;
+	font-size: 0.8rem;
+	font-weight: 600;
+}
+.Graphical{
+	width: 80%;
+	height: 40px;
+	background-color: gray;
+	border-radius: 20px;
+	margin:auto;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+.Graphical div{
+	height: 100%;
+	width: 0;
+	background-color: goldenrod;
+	border-radius: 20px;
+	transition: all 1s;
+}
+.hovers{
+	width: 50px;
+	height: 20px;
+	border: 1px solid green;
+	display: none;
+	position: absolute;
+	left: 50%;
+	margin-left: -25px;
+	background-color: green;
+	border-radius: 5px;
+	font-size: 12px;
+	transition: all 1s;
+}
+.Email{
+	margin-top: 30px;
+	height: auto;
+	transition: all 1s;
+}
+.click-call{
+	font-size: 0.6rem;
+	font-weight: 600;
+	margin-bottom: 20px;
+}
+.call-content{
+	height: auto;
+}
+.Email a{
+	display: block;
+	width: 100%;
+	height: auto;
+	text-align: center;
+	font-size: 1rem;
+	color: gray;
+	margin-bottom: 30px;
+}
+.Email i:hover{
+	cursor: pointer;
+	color: green;
+}
+.exp{
+	height: auto;
+	font-size: 0.6rem;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	border-bottom: 2px solid green;
+}
+.exp p{
+	margin-top: 10px;
+	margin-bottom: 10px;
+	text-indent: 1cm;
+}
+.exp center{
+	font-size: 0.8rem;
+	font-weight: 600;
+	margin-top: 20px;
+	margin-bottom: 10px;
+}
+.fun-exp{
+	height: auto;
+	width:100%;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	border-bottom: 2px solid green;
+	font-size: 0.6rem;
+}
+.fun-exp center{
+	font-size: 0.8rem;
+	font-weight: 600;
+	margin-bottom: 10px;
+}
+.fun-exp p{
+	text-indent: 1cm;
+}
+.product{
+	height: auto;
+	width: 100%;
+	margin-top: 10px;
+	border-bottom: 2px solid green;
+	font-size: 0.6rem;
+}
+.product center{
+	font-size: 0.8rem;
+	font-weight: 600;
+}
+.product1{
+	height:300px;
+	width: 100%;
+	background-image: url(../img/prd1.png);
+	background-size: cover;
+}
+.page5-min{
+	height: auto;
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+	flex-wrap: wrap;
+}
+.page5-min h1{
+	text-align: center;
+}
+.exhibitions{
+	height: auto;
+	width: 100%;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-around;
+}
+.productes{
+	width: 90%;
+	height: 300px;
+	margin-bottom: 10px;
+	background-color: rgba(0,0,0,0.5);
+	overflow-y: hidden;
+	transition: all .5s;
+	position: relative;
+	background-size: cover;
+	background-position: center center;
+}
+.productes:hover{
+	cursor: url(../img/big.png),auto;
+	box-shadow: 0 0 20px 5px rgb(0,0,0);
+}
+.productes:hover .infom{
+	cursor: pointer;
+	bottom: 0;
+}
+.productes .infom{
+	bottom: 0;
+}
+.alink{
+	color: white;
+}
+.alink:hover{
+	color: darkgreen;
+}
+
+.link-nav li:nth-child(1):hover .hovers{
+	display: block;
+} 
